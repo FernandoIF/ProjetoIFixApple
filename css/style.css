@@ -13,26 +13,22 @@ body {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .logo {
   height: 70px;
-  left: 252px;
-  position: absolute;
+  margin-left: 252px;
 }
 
-.menu ul {
-  position: absolute;
-  right: 352px;
-}
-
-.menu ul li {
-  line-height: 100px;
-  list-style: none;
-  display: inline-block;
-  padding: 5px;
+.links-menu li{
+  display: inline;
   margin: 10px;
+  padding: 10px;
+}
+
+.links-menu {
+  margin-right: 252px;
 }
 
 .works {
@@ -46,18 +42,25 @@ body {
 }
 
 .info-works {
+  height: 1000px;
   background-image: linear-gradient(180deg, #FFAD0000, #FFAD0080);
   z-index: 2;
+  position: relative;
 }
 
 .info-texts {
   max-width: 720px;
-  height: 1000px;
   margin-left: 252px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  padding-top: 350px;
+}
+
+.info-texts p > span {
+  font-size: 24px;
+  position: absolute;
+  margin-top: 10px;
 }
 
 .info-works img {
