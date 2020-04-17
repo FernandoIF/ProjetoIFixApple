@@ -45,7 +45,6 @@ body {
   height: 1000px;
   background-image: linear-gradient(180deg, #FFAD0000, #FFAD0080);
   z-index: 2;
-  position: relative;
 }
 
 .info-texts {
@@ -88,3 +87,4 @@ body {
   margin-top: 10px;
   border-radius: 30px;
 }
+
