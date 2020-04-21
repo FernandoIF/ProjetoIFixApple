@@ -29,7 +29,7 @@ body {
 }
 
 .links-menu {
-  margin-right: 300px;
+  margin-right: 200px;
 }
 
 .works {
@@ -40,13 +40,16 @@ body {
   background-position: center;
   position: relative;
   z-index: 1;
+ 
 }
 
 .info-works {
+  width: 100%;
   height: 1000px;
   background-image: linear-gradient(180deg, #FFAD0000, #FFAD0080);
   display: flex;
   z-index: 1;
+  margin: 0 auto;
 }
 
 .info-texts {
@@ -65,7 +68,6 @@ body {
 
 .iphone-header {
   z-index: -1;
-  margin-left: 100px;
 }
 
 .iphone-header img {
@@ -135,7 +137,7 @@ body {
 .seo-image {
   width: 700px;
   height: 790px;
-  margin-left: 275px;
+  margin-left: 250px;
   margin-top: 55px;
 }
 
@@ -189,5 +191,74 @@ body {
   margin-right: 250px;
 }
 
+.prices {
+  background-color: #2f303a;
+  width: 100%;
+  height: 1200px;
+  position: relative;
+}
 
+.prices h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
 
+.info-price {
+  width: 640px;
+  position: relative;
+  display: grid;
+  grid-row: 1fr;
+  margin: 0 auto;
+}
+
+.info-price ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-price ul li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 100px;
+}
+
+.info-price ul li:nth-child(3){
+  background: linear-gradient(270deg, #FFAD00, #FE375c);
+  border-radius: 25px;
+}
+
+.table {
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-left: 120px;
+  position: relative;
+}
+
+.table-prices tr {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  border-bottom: 1px solid #707070;
+}
+
+.table-prices tr td {
+  color: white;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.table img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
