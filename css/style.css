@@ -262,3 +262,121 @@ body {
   object-fit: cover;
   object-position: bottom;
 }
+
+.online-store {
+  width: 100%;
+  height: 1000px;
+  color: white;
+  background-color: #ffad00;
+  text-align: center;
+  position: relative;
+}
+
+.online-store h1 {
+  max-width: 700px;
+  font-size: 48px;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+
+.online-store > .button-more {
+  margin: 50px auto 30px auto;
+}
+
+.store {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  margin: 0 auto;
+}
+
+.store img:nth-child(2){
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.drums::before{
+  margin-left: 9px;
+  font-size: 48px;
+  font-weight: bold;
+  content: "R$ 100";
+  display: block;
+  position: absolute;
+  height: 60px;
+  width: 260px;
+  background: linear-gradient(270deg, #FFAD00, #FE375C);
+  bottom: 85px;
+  border-radius: 0px 20px 20px 0;
+  z-index: 2;
+}
+
+.store::before {
+  content: "";
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  bottom: 0px;
+  background: linear-gradient(180deg, #FFAD0000, #FFAD00);
+  z-index: 1;
+}
+
+.drums-info{
+  z-index: 3;
+  font-size: 24px;
+  position: absolute;
+  bottom: 40px;
+  margin-left: 40px;
+}
+
+.how-works {
+  width: 100%;
+  height: 748px;
+  background-color: #efefef;
+}
+
+.how-works h1{
+  width: 100%;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 74px;
+}
+
+.services-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.how-info {
+  margin: 0 auto;
+  text-align: center;
+  color: #959696;
+}
+
+.how-info p:first-child {
+  font-size: 48px;
+  color: #FFAD00;
+  width: 110px;
+  margin: 0 auto;
+  border: 3px solid #ffad00;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 50%;
+  margin-bottom: 21px;
+}
+
+.how-info p:nth-child(2){
+  font-size: 36px;
+  color: #959696;
+  margin-bottom: 20px;
+}
+
+.how-info p:last-child {
+  max-width: 350px;
+}
+
+
